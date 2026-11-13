@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stewart Mark G | Toms River, NJ</title>
+<meta name="description" content="Stewart Mark G. Electrician in Toms River, NJ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b2b33;--ink2:#24404e;--paper:#f6f4ef;--card:#ffffff;--mut:#5a6b74;--line:#e3ddd2;--gold:#c07a2e;--gold-d:#9e6423}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--paper);color:#1d2b33;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+.serif{font-family:"Fraunces",Georgia,"Times New Roman",serif}
+.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.wordmark{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:21px;letter-spacing:.01em;text-decoration:none;color:var(--ink)}
+.wordmark span{color:var(--gold)}
+.txt{background:var(--ink);color:#fff;font-weight:700;text-decoration:none;padding:11px 22px;border-radius:999px;font-size:15px;white-space:nowrap;transition:background .2s}
+.txt:hover{background:var(--gold-d)}
+/* hero */
+.hero{position:relative;background:var(--ink);color:#fff;overflow:hidden}
+.hero img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:.92}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,22,28,.94) 0%,rgba(8,22,28,.78) 46%,rgba(8,22,28,.28) 100%)}
+.hero-in{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding:96px 24px 104px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#eec27a;margin:0 0 18px}
+.hero h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(44px,6.2vw,76px);line-height:1.02;letter-spacing:-.01em;margin:0 0 20px;max-width:640px}
+.hero h1 em{font-style:italic;color:#eec27a}
+.hero p.lede{font-size:clamp(18px,2vw,22px);line-height:1.5;color:#dbe7ec;margin:0 0 30px;max-width:560px}
+.hero .cta-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--gold);color:#fff;font-weight:800;text-decoration:none;padding:16px 30px;border-radius:999px;font-size:16px;transition:background .2s}
+.btn:hover{background:var(--gold-d)}
+.hero .stars{font-size:15px;color:#dbe7ec;margin:0}
+.hero .stars b{color:#fff}
+/* trust strip */
+.strip{border-bottom:1px solid var(--line);background:#fff}
+.strip-in{max-width:1120px;margin:0 auto;padding:20px 24px;display:flex;gap:32px;flex-wrap:wrap;align-items:center}
+.strip div{font-size:14px;color:var(--mut)}
+.strip b{display:block;font-size:15px;color:#1d2b33;font-weight:700}
+/* sections */
+main{max-width:1120px;margin:0 auto;padding:0 24px 72px}
+.sec{padding:72px 0 8px}
+.kicker{font-size:12px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-d);margin:0 0 12px}
+h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(32px,4vw,46px);line-height:1.08;letter-spacing:-.01em;color:var(--ink);margin:0 0 10px}
+.sub{color:var(--mut);margin:0 0 28px;max-width:640px;font-size:17px}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.svc article{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px 26px 26px;box-shadow:0 1px 2px rgba(27,43,51,.05)}
+.svc .num{font-family:"Fraunces",Georgia,serif;font-size:15px;font-weight:700;color:var(--gold-d);letter-spacing:.08em}
+.svc h3{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:24px;line-height:1.15;color:var(--ink);margin:14px 0 8px}
+.svc p{margin:0;color:var(--mut);font-size:15px;line-height:1.55}
+.svc .rule{height:2px;background:var(--gold);width:44px;border-radius:2px;margin:0 0 4px}
+/* photo band */
+.band{margin:64px 0 0;border-radius:24px;overflow:hidden;position:relative;background:var(--ink)}
+.band img{width:100%;height:420px;object-fit:cover;opacity:.95}
+.band figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 32px;background:linear-gradient(transparent,rgba(8,22,28,.82));color:#fff;font-family:"Fraunces",Georgia,serif;font-size:clamp(22px,2.6vw,30px);font-weight:600;line-height:1.2}
+/* visit */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.visit div{background:var(--ink);color:#fff;border-radius:20px;padding:30px 28px}
+.visit div.light{background:var(--card);color:#1d2b33;border:1px solid var(--line)}
+.visit .lbl{font-size:12px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:#eec27a;margin:0 0 10px}
+.visit div.light .lbl{color:var(--gold-d)}
+.visit p{margin:0;font-size:19px;line-height:1.5;font-weight:600}
+.visit p span{display:block;font-size:15px;font-weight:400;color:#c7d6dd;margin-top:6px}
+.visit div.light p span{color:var(--mut)}
+/* form */
+.form-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:40px 36px;box-shadow:0 12px 40px rgba(27,43,51,.08)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+label{display:block;font-size:14px;font-weight:700;color:#1d2b33;margin:0 0 6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:14px 16px;border:1px solid #cfd6da;border-radius:12px;margin:0 0 18px;background:#fff;color:#1d2b33}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+textarea{min-height:110px;resize:vertical}
+.full{grid-column:1/-1}
+button{width:100%;background:var(--ink);color:#fff;font:inherit;font-weight:800;font-size:17px;padding:17px;border:0;border-radius:14px;cursor:pointer;transition:background .2s}
+button:hover{background:var(--gold-d)}
+.note{font-size:14px;color:var(--mut);text-align:center;margin:16px 0 0}
+.foot{color:var(--mut);font-size:14px;text-align:center;margin:48px 0 0}
+.foot b{color:var(--ink)}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(255,255,255,.96);border-top:1px solid var(--line);padding:12px 20px calc(12px + env(safe-area-inset-bottom))}
+.sticky a{display:block;max-width:1120px;margin:0 auto;text-align:center;background:var(--ink);color:#fff;font-weight:800;text-decoration:none;padding:15px;border-radius:14px;font-size:16px}
+@media(max-width:760px){
+  .svc{grid-template-columns:1fr}
+  .visit{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .hero-in{padding:64px 20px 72px}
+  .form-card{padding:28px 20px}
+  .band img{height:280px}
+  main{padding:0 20px 64px}
+  .sec{padding:52px 0 8px}
+}
+</style></head><body>
+<header class="top"><div class="top-in"><a class="wordmark" href="#top">Stewart <span>Mark G</span></a><a class="txt" href="sms:+17322863875">Text us</a></div></header>
+
+<section class="hero">
+  <img src="hero.jpg" alt="An electrician working on a circuit breaker panel with colorful wires">
+  <div class="hero-in">
+    <p class="eyebrow">Toms River, New Jersey</p>
+    <h1>Power that works, <em>every time.</em></h1>
+    <p class="lede">Electrician in Toms River, NJ.</p>
+    <div class="cta-row">
+      <a class="btn" href="sms:+17322863875">Text us</a>
+      <p class="stars"><b>4.2 stars</b> &middot; 5 reviews on Birdeye</p>
+    </div>
+  </div>
+</section>
+
+<div class="strip"><div class="strip-in">
+  <div><b>EV chargers</b>Home charging installed</div>
+  <div><b>Generators</b>Backup power</div>
+  <div><b>Mon&ndash;Fri, 8 AM&ndash;8 PM</b>46 Cedar Dr, Toms River</div>
+</div></div>
+
+<main>
+<section class="sec">
+  <p class="kicker">What we do</p>
+  <h2>Electrical work, done right.</h2>
+  <p class="sub">Services from the business listing. The owner can correct or add to this list.</p>
+  <div class="svc">
+    <article><p class="num">01</p><div class="rule"></div><h3>EV chargers</h3><p>Home EV charger installation, so you charge overnight and drive off full.</p></article>
+    <article><p class="num">02</p><div class="rule"></div><h3>Backup generators</h3><p>Backup generator installation, so the power stays on when the grid goes down.</p></article>
+    <article><p class="num">03</p><div class="rule"></div><h3>Panels &amp; breakers</h3><p>Panel and breaker work, from upgrades to repairs.</p></article>
+  </div>
+</section>
+
+<figure class="band" style="margin-left:0;margin-right:0">
+  <img src="photo-2.jpg" alt="A wall-mounted electric vehicle charger on a brick wall">
+  <figcaption>Done right, the first time.</figcaption>
+</figure>
+
+<section class="sec">
+  <p class="kicker">Visit us</p>
+  <h2>Come by, or just send a text.</h2>
+  <p class="sub">We are in Toms River, and we reply by text.</p>
+  <div class="visit">
+    <div><p class="lbl">Address</p><p>46 Cedar Dr<span>Toms River, NJ 08753</span></p></div>
+    <div class="light"><p class="lbl">Hours</p><p>Monday&ndash;Friday<span>8 AM&ndash;8 PM</span></p></div>
+  </div>
+</section>
+
+<section class="sec">
+  <p class="kicker">Send a message</p>
+  <h2>Tell us what you need.</h2>
+  <p class="sub">It opens as a text to us. No call needed.</p>
+  <div class="form-card">
+    <form id="lead">
+      <div class="form-grid">
+        <div><label for="nm">Your name</label><input id="nm" name="name" type="text" autocomplete="name" required></div>
+        <div><label for="ph">Your phone</label><input id="ph" name="phone" type="tel" autocomplete="tel" required></div>
+        <div class="full"><label for="sv">What do you need?</label><select id="sv" name="service">
+          <option>EV charger</option>
+          <option>Backup generator</option>
+          <option>Panel or breaker</option>
+          <option>Something else</option>
+        </select></div>
+        <div class="full"><label for="ms">Message</label><textarea id="ms" name="message" placeholder="A few words about the job"></textarea></div>
+      </div>
+      <button type="submit">Send by text</button>
+    </form>
+    <p class="note">No call needed. We reply by text.</p>
+  </div>
+  <p class="foot"><b>Stewart Mark G</b> &middot; Toms River, NJ</p>
+</section>
+</main>
+
+<div class="sticky"><a href="sms:+17322863875">Text us</a></div>
+<script>
+document.getElementById('lead').addEventListener('submit', function(e){
+  e.preventDefault();
+  var n=document.getElementById('nm').value.trim();
+  var p=document.getElementById('ph').value.trim();
+  var s=document.getElementById('sv').value;
+  var m=document.getElementById('ms').value.trim();
+  var body='Hi, I am '+n+'. '+s+': '+m+' My number is '+p+'.';
+  window.location.href='sms:+17322863875?&body='+encodeURIComponent(body);
+});
+</script>
+</body></html>
