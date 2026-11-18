@@ -80,7 +80,7 @@ button:hover{background:var(--gold-d)}
   .sec{padding:52px 0 8px}
 }
 </style></head><body>
-<header class="top"><div class="top-in"><a class="wordmark" href="#top">Candlewood <span>Tables</span></a><a class="txt" href="sms:+17325818233">Text us</a></div></header>
+<header class="top"><div class="top-in"><a class="wordmark" href="#top">Candlewood <span>Tables</span></a></div></header>
 
 <section class="hero">
   <img src="hero.jpg" alt="A wooden picnic table on a green lawn in a garden">
@@ -105,7 +105,7 @@ button:hover{background:var(--gold-d)}
 <section class="sec">
   <p class="kicker">What we do</p>
   <h2>Picnic tables, made by hand for your backyard.</h2>
-  <p class="sub">Services from the business listing. The owner can correct or add to this list.</p>
+  
   <div class="svc">
     <article><p class="num">01</p><div class="rule"></div><h3>Custom picnic tables</h3><p>Handcrafted tables, built to order in Monmouth County.</p></article>
     <article><p class="num">02</p><div class="rule"></div><h3>Built to last</h3><p>Made for years of use, season after season, outdoors.</p></article>
@@ -165,4 +165,5 @@ document.getElementById('lead').addEventListener('submit', function(e){
   window.location.href='sms:+17325818233?&body='+encodeURIComponent(body);
 });
 </script>
+<script>(function(){var b=document.querySelector('a.btn[href^="sms:"]'),s=document.querySelector(".sticky");if(!b||!s||!("IntersectionObserver" in window))return;s.style.display="none";new IntersectionObserver(function(e){s.style.display=e[0].isIntersecting?"none":"block"}).observe(b)})();</script>
 </body></html>

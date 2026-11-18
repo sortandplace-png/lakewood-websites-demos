@@ -82,7 +82,7 @@ button:hover{background:var(--gold-d)}
   .sec{padding:52px 0 8px}
 }
 </style></head><body>
-<header class="top"><div class="top-in"><a class="wordmark" href="#top">Centristic</a><a class="txt" href="sms:+13474714777">Text us</a></div></header>
+<header class="top"><div class="top-in"><a class="wordmark" href="#top">Centristic</a></div></header>
 
 <section class="hero">
   <img src="hero.jpg" alt="A carpenter sanding a round piece of wood on a belt sander in a workshop">
@@ -108,7 +108,7 @@ button:hover{background:var(--gold-d)}
 <section class="sec">
   <p class="kicker">What we do</p>
   <h2>Millwork that fits like it was always there.</h2>
-  <p class="sub">Services from the business listing. The owner can correct or add to this list.</p>
+  
   <div class="svc">
     <article><p class="num">01</p><div class="rule"></div><h3>Custom millwork</h3><p>One-off pieces and full runs, measured and built for your space.</p></article>
     <article><p class="num">02</p><div class="rule"></div><h3>Cabinets &amp; built-ins</h3><p>Kitchens, closets, and built-in storage, made to fit the room.</p></article>
@@ -168,4 +168,5 @@ document.getElementById('lead').addEventListener('submit', function(e){
   window.location.href='sms:+13474714777?&body='+encodeURIComponent(body);
 });
 </script>
+<script>(function(){var b=document.querySelector('a.btn[href^="sms:"]'),s=document.querySelector(".sticky");if(!b||!s||!("IntersectionObserver" in window))return;s.style.display="none";new IntersectionObserver(function(e){s.style.display=e[0].isIntersecting?"none":"block"}).observe(b)})();</script>
 </body></html>

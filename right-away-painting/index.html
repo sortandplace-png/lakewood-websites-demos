@@ -82,7 +82,7 @@ button:hover{background:var(--gold-d)}
   .sec{padding:52px 0 8px}
 }
 </style></head><body>
-<header class="top"><div class="top-in"><a class="wordmark" href="#top">Right Away <span>Painting</span></a><a class="txt" href="sms:+17323979154">Text us</a></div></header>
+<header class="top"><div class="top-in"><a class="wordmark" href="#top">Right Away <span>Painting</span></a></div></header>
 
 <section class="hero">
   <img src="hero.jpg" alt="Two painters painting an interior wall white in a bright room">
@@ -108,7 +108,7 @@ button:hover{background:var(--gold-d)}
 <section class="sec">
   <p class="kicker">What we do</p>
   <h2>Painting that freshens the whole house.</h2>
-  <p class="sub">Services from the business listing. The owner can correct or add to this list.</p>
+  
   <div class="svc">
     <article><p class="num">01</p><div class="rule"></div><h3>Interior painting</h3><p>Walls, ceilings, and trim, painted clean with sharp lines and tidy edges.</p></article>
     <article><p class="num">02</p><div class="rule"></div><h3>Exterior painting</h3><p>Siding, trim, and doors, prepped and painted to stand up to the weather.</p></article>
@@ -168,4 +168,5 @@ document.getElementById('lead').addEventListener('submit', function(e){
   window.location.href='sms:+17323979154?&body='+encodeURIComponent(body);
 });
 </script>
+<script>(function(){var b=document.querySelector('a.btn[href^="sms:"]'),s=document.querySelector(".sticky");if(!b||!s||!("IntersectionObserver" in window))return;s.style.display="none";new IntersectionObserver(function(e){s.style.display=e[0].isIntersecting?"none":"block"}).observe(b)})();</script>
 </body></html>
